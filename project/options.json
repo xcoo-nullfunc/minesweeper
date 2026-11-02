@@ -1,0 +1,11 @@
+{
+	"Camera": {
+		"move_sensitive": 3.0,
+		"move_speed": 400.0,
+		"quick_move_multi": 2.0,
+		"reverse_move": true
+	},
+	"MST": {
+		"quick_click": true
+	}
+}

@@ -1,0 +1,9 @@
+[gd_resource type="LabelSettings" format=3 uid="uid://dder4i4ah8ouo"]
+
+[ext_resource type="FontFile" uid="uid://bkrywoq6iafye" path="res://resource/fonts/DepartureMonoNerdFontPropo-Regular.otf" id="1_rub36"]
+
+[resource]
+font = ExtResource("1_rub36")
+font_size = 50
+font_color = Color(1, 0, 0, 1)
+outline_size = 1

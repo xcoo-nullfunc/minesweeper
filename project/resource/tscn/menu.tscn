@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cbgkrtikwg266"]
+
+[ext_resource type="Script" uid="uid://cgkvxds46ke0" path="res://resource/tscn/menu/reference_rect.gd" id="1_4cia5"]
+[ext_resource type="Texture2D" uid="uid://dbx66sovxd1" path="res://icon.svg" id="2_fb3vh"]
+
+[node name="Menu" type="Control" unique_id=779356144]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ReferenceRect" type="ReferenceRect" parent="." unique_id=513387349]
+layout_mode = 0
+offset_right = 137.0
+offset_bottom = 141.0
+border_width = 3.0
+editor_only = false
+script = ExtResource("1_4cia5")
+
+[node name="TextureRect" type="TextureRect" parent="ReferenceRect" unique_id=743129093]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 135.0
+offset_bottom = 141.0
+texture = ExtResource("2_fb3vh")
+expand_mode = 1
